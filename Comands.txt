@@ -1,0 +1,3 @@
+cd /d/Reposit
+git init
+git add .

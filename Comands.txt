@@ -1,3 +1,20 @@
-cd /d/Reposit
-git init
-git add .
+    1  git config --global user.name "...."
+    2  cd /d/Reposit
+    3  git init
+    4  git add .
+    5  git add Comands.txt
+    6  git commit -m "Первый коммит"
+    7  git remote add origin https://github.com/.../-.git
+    8  ls ~/.ssh/
+    9  mkdir -p ~/.ssh
+   10  ssh-keygen -t ed25519 -C "mel...@gmail.com"
+   11  ls ~/.ssh/
+   12  cat ~/.ssh/id_ed25519.pub
+   13  ssh -T git@github.com
+   14  history
+   15  git remote set-url origin git@github.com:.git
+   16  cd /d/Reposit
+   17  git remote set-url origin git@github.com:.git
+   18  git push -u origin master
+   19  git status
+   20  history
